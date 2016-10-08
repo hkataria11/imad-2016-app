@@ -10,7 +10,7 @@ var Articles={
     
 
 
-var 'Article-one' :{
+'Article-one' :{
     title :'Article-one | Harshit Kataria',
     heading: 'Article one',
     content: ` <p>
@@ -23,7 +23,7 @@ var 'Article-one' :{
                     This is my article one content.This is my article one content. This is my article one content. This is my article one content. This is my article one content. This is my article one content.
                 </p>`
 },
-var 'Article-two' :{
+'Article-two' :{
     title :'Article-two | Harshit Kataria',
     heading: 'Article two',
     content: ` <p>
@@ -36,7 +36,7 @@ var 'Article-two' :{
                     This is my article two content.This is my article two content. This is my article two content. This is my article two content. This is my article two content. This is my article two content.
                 </p>`
 },
-var 'Article-three' :{
+ 'Article-three' :{
     
     title :'Article-three| Harshit Kataria',
     heading: 'Article  three',
