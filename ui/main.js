@@ -1,14 +1,10 @@
-console.log('Loaded!');
-var element = document.getElementById('main-txt');
-element.innerHTML='Hi! I am Harshit and this is my  webapp';
-var img= document.getElementById('madi');
-maginLeft=0;
-function moveRight(){
-    marginLeft= marginLeft +1;
-    img.syle.marginLeft= marginLeft+'px';
-}
-img.onclick = function(){
-   var interval = setInterval(moveRight,50);
-   img.style.marginLeft='100px'; 
-   
+var button = document.getElementById('counter');
+var counter=0;
+
+button.onClick = function(){
+    counter=counter+1;
+var span =document.getElementById('count');
+span.innerHTML =  counter.toString();
+    
+    
 };
